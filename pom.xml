@@ -4,7 +4,7 @@
      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>CDRM-DevOps</groupId>
+  <groupId>POC4-TEAM1</groupId>
   <artifactId>InformationCentre</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
