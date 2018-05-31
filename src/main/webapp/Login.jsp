@@ -6,7 +6,7 @@
 	<style>body {background-color:#6A5ACD}</style>
 </head> 
 <body>
-	<center><h1>Continuous Integration AND Continuous Delivery</h1></center>
+	<center><h1>Continuous Integration AND Continuous Delivery Pipeline</h1></center>
 	<img src="images/CI-CD.png" alt="Mountain View" style="width:1370px;height:200px;">
 	<center><h2>Signup Details</h2> 
 		
