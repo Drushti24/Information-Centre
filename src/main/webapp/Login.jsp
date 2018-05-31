@@ -2,7 +2,7 @@
 <html> 
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
-	<title>CICD Login Page</title> 
+	<title>CICD Login Page Demo</title> 
 	<style>body {background-color:#6A5ACD}</style>
 </head> 
 <body>
