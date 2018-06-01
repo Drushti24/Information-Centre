@@ -11,7 +11,7 @@ echo "The build number is ${buildNumber}"
 echo " BUILD CONSOLE OUTPUT OF BUILD NUMBER ${buildNumber}"
 
 sh("curl -X GET --user  jenkins:jenkins 'http://52.224.106.41:8080/job/Build_Job/${buildNumber}/consoleText' ")
-sleep 120
+sleep 150
 
     } 
  stage('Deployment to Tomcat'){
