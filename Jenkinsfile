@@ -1,7 +1,7 @@
 def buildNumber =''
 
 node('master'){
-    stage('Build and Deployment'){
+    stage('Build and Artifactory Upload'){
 
 sh ("curl --insecure --user jenkins:jenkins -X POST 'http://52.224.106.41:8080/job/Build_Job/build?token=trigger123' ")
 sleep 120
@@ -12,6 +12,9 @@ echo " BUILD CONSOLE OUTPUT OF BUILD NUMBER ${buildNumber}"
 
 sh("curl -X GET --user  jenkins:jenkins 'http://52.224.106.41:8080/job/Build_Job/${buildNumber}/consoleText' ")
 sleep 120
+
+    } 
+ stage('Deployment to Tomcat'){
 sh("curl -X GET --user  jenkins:jenkins 'http://52.224.106.41:8080/job/Deploy_Job/lastBuild/consoleText' ")
 }
 }
